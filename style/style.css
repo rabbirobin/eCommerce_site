@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4e4e4 !important;
+    
+}
+
+.nav-custom-color{
+    background-color: #f8bee7;
+}
+
+.link-color {
+    color: rgb(0, 0, 0) !important;
+}
+
+.link-color:hover {
+    color: rgb(224, 77, 77) !important;
+}
+
+.outline{
+    color: rgb(224, 77, 77) !important;
+}
+
+
+
+.recommanded-items{
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+.custom-img{
+    position: relative;
+    height: 500px;
+    width: 600px !important;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+
+
+.custom-img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: all 1.1s;
+}
+
+.custom-img:hover img{
+    transform: scale(1.1);
+}
+
+.form{
+    width: 40%;
+    height: auto;
+    margin: auto;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+}
